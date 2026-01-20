@@ -1,168 +1,143 @@
-
 <h1 align="center" style="font-size:60px;">
-🌌 FANTASY <br>
+🌌 FANTASY EXCHANGE
 </h1>
+
 <h3 align="center">
-  Real-Time Crypto Dashboard + AI Trading Bot <br>
-⚡ Live Prices • 📈 Charts • 🤖 AI Predictions • 💳 Razorpay Top-Up • 💼 Internal Wallet Trading
+Real-Time Crypto Trading & AI-Powered Analytics Platform  
+⚡ Live Prices • 📈 Charts • 🤖 AI Insights • 💳 Wallet • 🔁 Automated Trading
 </h3>
 
-
-
-🚀 **What is Fantasy?**
-<p mggin-left-40px>
-  Fantasy is a modern crypto trading platform where users can:
-  
-  * ⚡ View **real-time crypto prices** (1 sec updates)
-  * 📊 Analyze **candlestick charts**
-  * 🤖 Use **AI predictions** (5-minute & 1-hour)
-  * 🎮 Practice **paper trading** with virtual money
-  * 🔔 Receive **alerts** & bot notifications
-  * 💼 Trade using an **internal wallet**
-  * 💳 Add money using **Razorpay** (ONLY for top-up)
+<p align="center">
+<strong>Status:</strong> Backend complete & deployed • Frontend under active development 🚧  
 </p>
 
-🏗️ **System Architecture Overview**
+---
 
-  Fantasy follows a clean, scalable, microservice architecture:
-  
-  * ☸️ **Kubernetes** orchestrates services
-  * 🐳 **Docker** runs containers
-  * 🟩 **Postgres** stores all core data
-  * 🟥 **Redis** handles caching & real-time updates
-  * 🟧 **S3** stores ML models, files, logs
-  * 🐍 **Python** runs AI + trading bot
-  * 🟩 **Node.js** powers the API and wallet
-  * 🌐 **Cloudflare + NGINX** handle traffic
-  * 💳 **Razorpay** handles top-up payments
-  * 🔁 **CI/CD with GitHub + Jenkins** for deployments
+## 🚀 What is Fantasy Exchange?
 
+**Fantasy Exchange** is a comprehensive, real-time crypto trading and AI-powered analytics platform designed to simulate and assist modern trading workflows.
 
-🌐 **Architecture Diagram**
+It enables users to analyze live market data, practice trading using an internal wallet, and receive AI-driven insights based on real-time and historical price movements.
 
-<img width="2341" height="1152" alt="image" src="https://github.com/user-attachments/assets/b2a9b9ff-cbdf-481d-b774-9664bfbb4353" />
+### Key Capabilities
+- ⚡ Real-time crypto prices (1-second updates)
+- 📊 Interactive candlestick charts
+- 🤖 AI-powered trading insights & predictions
+- 💼 Internal wallet with ledger-based accounting
+- 🎮 Paper trading (no real crypto involved)
+- 🔔 Alerts & bot notifications
+- 💳 Razorpay-based wallet top-up (for credits only)
 
+> ⚠️ **Note:** Fantasy Exchange does not execute real crypto trades. All trades are simulated using an internal ledger system.
 
-📘 **Architecture Legend (Simple & Clear)**
+---
 
-  ☸️ **Kubernetes (K8s)**
-  
-    * Runs & scales all backend services
-    * Does health checks (readiness/liveness)
-    * Restarts unhealthy pods
-    * Uses Secrets & ConfigMaps for config
-    * Manages Docker-based Node.js and Python services
+## 🧠 AI & Analytics
+- RAG-based AI pipelines using live + historical market data
+- Time-series prediction models (LSTM, XGBoost, Prophet)
+- AI-generated trading signals & explanations
+- Automated trading bot engine (rule + AI assisted)
 
+---
 
-  🐳 **Docker (Container Runtime)**
+## 🖥️ Frontend
+- Built using **React.js** and **Tailwind CSS**
+- User dashboard, charts, wallet, and analytics UI
 
-    * Each service runs as its own container:
-    
-      * Node.js API
-      * Python AI engine
-      * Worker jobs
-      * Market data collectors
+🚧 **Frontend code will be pushed soon — currently under active development**
 
+---
 
-  🟩 **Postgres (Main Database)**
+## 🏗️ System Architecture Overview
 
-    Stores:
-    
-    * Users
-    * Wallet balances
-    * Ledger (credit, debit, reserve, release)
-    * Trades & orders
-    * AI signals
-    * Razorpay payment logs
-    
-    Recommended: **AWS RDS Postgres**
-    K8s apps connect to it securely.
+Fantasy Exchange follows a **scalable microservices architecture** optimized for real-time data flow and financial safety.
 
+### Core Infrastructure
+- ☸️ Kubernetes for orchestration
+- 🐳 Docker for containerization
+- 🟩 Node.js for main backend API
+- 🐍 FastAPI / Python microservices for market data & AI
+- 🟥 Redis for caching, queues & pub/sub
+- 🟢 MongoDB for users & transaction records
+- 🟧 AWS S3 for models, logs & backups
+- 🌐 NGINX + Cloudflare for traffic & security
+- 💳 Razorpay for wallet top-up
+- 🔁 Jenkins CI/CD for automated deployment
 
-  🟥 **Redis (Cache + Real-Time Pub/Sub)**
+---
 
-    Used for:
-    
-    * Live price broadcasting
-    * Bot queues
-    * Rate limiting
-    * Fast caching
-    * User sessions
-    
+## 🌐 Architecture Diagram
 
-  🟧 **AWS S3**
-
-    Stores:
-    
-    * ML model files
-    * Market data snapshots
-    * User images
-    * Log files
-    * Backups
+<img width="2930" height="1905" alt="image" src="https://github.com/user-attachments/assets/811513b9-d479-48b9-9fa1-31376518491c" />
 
 
-  🐍 **Python Service**
+---
 
-    Handles:
-    
-    * Market data collector
-    * Data analysis & candle generation
-    * AI prediction models (LSTM, XGBoost, Prophet)
-    * Auto trading bot engine
-    * Background jobs
-    
-    Communicates with Redis, Postgres, S3.
+## 🔐 Wallet & Transaction Safety
+- Internal ledger system (credit, debit, reserve, release)
+- Idempotent wallet APIs (duplicate requests cannot double-debit)
+- Redis-based locks & safeguards
+- Fully auditable transaction history
 
+---
 
-  🟩 **Node.js Service (Main Backend API)**
+## ⚙️ Backend Services
 
-    Handles:
-    
-    * Authentication
-    * Authorization
-    * Wallet + Ledger
-    * Trade placement
-    * Notifications
-    * Razorpay webhook + top-up flow
-    
-    Talks to Postgres, Redis, S3.
+### 🟩 Node.js (Main API)
+- Authentication & authorization
+- Wallet & ledger management
+- Trade placement
+- Razorpay webhook handling
+- Notifications & session management
 
+### 🐍 FastAPI / Python Services
+- Live crypto price ingestion
+- Candle generation & aggregation
+- AI model inference
+- Automated trading bots
+- Background workers
 
-🕸️ **NGINX (Reverse Proxy)**
+---
 
-    * Receives traffic from Cloudflare
-    * Routes to Node.js API
-    * Handles WebSocket upgrades
-    * Acts as load balancer
-    
+## 🚀 Deployment & DevOps
+- Dockerized microservices
+- AWS EC2 + Kubernetes cluster
+- Jenkins-based CI/CD pipeline:
+  - Build
+  - Test
+  - Docker image creation
+  - Automated deployment
 
-🌐 **Cloudflare (CDN + Security Layer)**
+---
 
-    * CDN caching
-    * Rate limiting
-    * SSL termination
-    * DDoS protection
-    * DNS management
+## 🛠️ Tech Stack Summary
 
+| Layer | Technology |
+|-----|-----------|
+| Frontend | React.js, Tailwind CSS |
+| Backend | Node.js, FastAPI |
+| AI/ML | Python, LSTM, XGBoost, Prophet, RAG |
+| Database | MongoDB |
+| Cache & Queue | Redis |
+| Reverse Proxy | NGINX |
+| Payments | Razorpay |
+| Cloud | AWS |
+| DevOps | Docker, Kubernetes, Jenkins |
 
-💳 **Razorpay**
+---
 
-    * User → Razorpay Checkout
-    * Razorpay → Webhook → Node.js
-    * Node.js → Postgres → Credit wallet
-    
-    Trading uses **internal Fantasy Ledger** only.
+## 📌 Project Status
+- ✅ Backend architecture complete
+- ✅ AI & trading engine implemented
+- ✅ Wallet & transaction safety enforced
+- 🚧 Frontend UI polishing & feature completion
+- 🚀 Public demo coming soon
 
+---
 
-🔁 **CI/CD — GitHub + Jenkins**
+## 🙌 Maintainer
+**Indresh Vikram**
 
-    * Code pushed → GitHub
-    * Jenkins pulls code → builds Docker images
-    * Images deployed to Kubernetes cluster on AWS EC2
-    * Automated, safe, and version-controlled
-    
+---
 
-🙌 **Maintainer**
-
-  INDRESH VIKRAM
-
+⭐ If you find this project interesting, feel free to star the repository!
