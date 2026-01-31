@@ -1,5 +1,5 @@
 <h1 align="center" style="font-size:60px;">
-🌌 FANTASY EXCHANGE
+  FANTASY EXCHANGE
 </h1>
 
 <h3 align="center">
@@ -8,7 +8,7 @@ Real-Time Crypto Trading & AI-Powered Analytics Platform
 </h3>
 
 <p align="center">
-<strong>Status:</strong> Backend complete & deployed • Frontend under active development 🚧  
+<strong>Status:</strong> Under development 🚧  
 </p>
 
 ---
@@ -34,7 +34,7 @@ It enables users to analyze live market data, practice trading using an internal
 
 ## 🧠 AI & Analytics
 - RAG-based AI pipelines using live + historical market data
-- Time-series prediction models (LSTM, XGBoost, Prophet)
+- Time-series prediction models
 - AI-generated trading signals & explanations
 - Automated trading bot engine (rule + AI assisted)
 
