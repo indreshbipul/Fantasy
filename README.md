@@ -4,11 +4,19 @@
 
 <h3 align="center">
 Real-Time Crypto Trading & AI-Powered Analytics Platform  
-    Live Prices and Charts 
-  • AI Insights using Generative AI 
-  • Paper and Real Trade (weakly Vartual Fund of 10k is Given to User To claim)
-  • Automated Trading using Agentic AI
 </h3>
+<h5>
+  •  Live Prices and Charts 
+</h5>
+<h5>
+  • AI Insights using Generative AI 
+</h5>
+<h5>
+   • Paper and Real Trade (weakly Vartual Fund of 10k is Given to User To claim)
+</h5>
+<h5>
+   • Automated Trading using Agentic AI
+</h5>
 
 <p align="center">
 <strong>Status:</strong> Under development 🚧  
