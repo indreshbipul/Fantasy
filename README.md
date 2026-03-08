@@ -4,7 +4,10 @@
 
 <h3 align="center">
 Real-Time Crypto Trading & AI-Powered Analytics Platform  
-⚡ Live Prices • 📈 Charts • 🤖 AI Insights • 💳 Wallet • 🔁 Automated Trading
+    Live Prices and Charts 
+  • AI Insights using Generative AI 
+  • Paper and Real Trade (weakly Vartual Fund of 10k is Given to User To claim)
+  • Automated Trading using Agentic AI
 </h3>
 
 <p align="center">
@@ -71,42 +74,11 @@ Fantasy Exchange follows a **scalable microservices architecture** optimized for
 <img width="2930" height="1905" alt="image" src="https://github.com/user-attachments/assets/811513b9-d479-48b9-9fa1-31376518491c" />
 
 
----
-
-## 🔐 Wallet & Transaction Safety
-- Internal ledger system (credit, debit, reserve, release)
-- Idempotent wallet APIs (duplicate requests cannot double-debit)
-- Redis-based locks & safeguards
-- Fully auditable transaction history
 
 ---
 
-## ⚙️ Backend Services
-
-### 🟩 Node.js (Main API)
-- Authentication & authorization
-- Wallet & ledger management
-- Trade placement
-- Razorpay webhook handling
-- Notifications & session management
-
-### 🐍 FastAPI / Python Services
-- Live crypto price ingestion
-- Candle generation & aggregation
-- AI model inference
-- Automated trading bots
-- Background workers
-
----
-
-## 🚀 Deployment & DevOps
-- Dockerized microservices
-- AWS EC2 + Kubernetes cluster
-- Jenkins-based CI/CD pipeline:
-  - Build
-  - Test
-  - Docker image creation
-  - Automated deployment
+## How Transaction Engine Is working
+<img width="3845" height="2077" alt="image" src="https://github.com/user-attachments/assets/086f9bf5-2aa9-4913-aec3-90a324d29cae" />
 
 ---
 
