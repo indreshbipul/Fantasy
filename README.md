@@ -12,7 +12,7 @@ Real-Time Crypto Trading & AI-Powered Analytics Platform
   • AI Insights using Generative AI 
 </h5>
 <h5>
-   • Paper and Real Trade (weakly Vartual Fund of 10k is Given to User To claim)
+   • Paper and Real Trade (weakly Virtual Fund of 10k is Given to User To claim)
 </h5>
 <h5>
    • Automated Trading using Agentic AI
