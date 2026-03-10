@@ -1,10 +1,5 @@
 <h1 align="center" style="font-size:60px;">
-  <div className="w-15 h-15 bg-indigo-600 rounded-lg flex items-center justify-center group-hover:bg-indigo-500 transition-colors shadow-sm shadow-indigo-200">
-      <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-      </svg>
-  </div>
-  FANTASY EXCHANGE
+  <img width="10" height="10" alt="image" src="https://github.com/user-attachments/assets/d45d5f88-094e-4d34-aca3-2921ee797a33" /> FANTASY EXCHANGE
 </h1>
 
 <p align="center">
@@ -15,9 +10,7 @@
 
 ## 🚀 What is Fantasy Exchange?
 
-**Fantasy Exchange** is a comprehensive, real-time crypto trading and AI-powered analytics platform designed to simulate and assist modern trading workflows.
-
-It enables users to analyze live market data, practice trading using an internal wallet, and receive AI-driven insights based on real-time and historical price movements.
+**Fantasy Exchange** is a comprehensive, real-time crypto trading and AI-powered analytics platform designed to simulate and assist modern trading workflows.It enables users to analyze live market data, practice trading using an internal wallet, and receive AI-driven insights based on real-time and historical price movements.
 
 ### Key Capabilities
 - ⚡ Real-time crypto prices 
