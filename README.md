@@ -1,6 +1,4 @@
-# <h1 align="center">
-  <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/d45d5f88-094e-4d34-aca3-2921ee797a33" /> Fantasy Exchange
-</h1>
+# <h1 align="center"><img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/d45d5f88-094e-4d34-aca3-2921ee797a33" /> Fantasy Exchange</h1>
 
 <p align="center">
 A real-time crypto trading platform that combines market data streaming, AI-powered analytics, and a ledger-based transaction engine to simulate and assist modern trading workflows.
