@@ -1,5 +1,5 @@
 <h1 align="center" style="font-size:60px;">
-  <img width="10" height="10" alt="image" src="https://github.com/user-attachments/assets/d45d5f88-094e-4d34-aca3-2921ee797a33" /> FANTASY EXCHANGE
+  <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/d45d5f88-094e-4d34-aca3-2921ee797a33" /> FANTASY EXCHANGE
 </h1>
 
 <p align="center">
@@ -28,23 +28,6 @@
 - AI-generated trading signals & explanations
 - Automated trading bot engine (rule + AI assisted)
 
----
-
-## 🏗️ System Architecture Overview
-
-Fantasy Exchange follows a **scalable microservices architecture** optimized for real-time data flow and financial safety.
-
-### Core Infrastructure
-- ☸️ Kubernetes for orchestration
-- 🐳 Docker for containerization
-- 🟩 Node.js for main backend API
-- 🐍 FastAPI / Python microservices for market data & AI
-- 🟥 Redis for caching, queues & pub/sub
-- 🟢 MongoDB for users & transaction records
-- 🟧 AWS S3 for models, logs & backups
-- 🌐 NGINX + Cloudflare for traffic & security
-- 💳 wallet top-up
-- 🔁 Jenkins CI/CD for automated deployment
 
 ---
 
@@ -56,23 +39,28 @@ Fantasy Exchange follows a **scalable microservices architecture** optimized for
 
 ---
 
-## How Transaction Engine Is working
+## 🌐 How Transaction Engine Is working
 <img width="3845" height="2077" alt="image" src="https://github.com/user-attachments/assets/086f9bf5-2aa9-4913-aec3-90a324d29cae" />
 
 ---
 
-## 🛠️ Tech Stack Summary
+## 🏗️ System Architecture Overview
 
-| Layer | Technology |
-|-----|-----------|
-| Frontend | React.js, Tailwind CSS |
-| Backend | Node.js, FastAPI |
-| AI/ML | Python, LSTM, XGBoost, Prophet, RAG |
-| Database | MongoDB |
-| Cache & Queue | Redis |
-| Reverse Proxy | NGINX |
-| Cloud | AWS |
-| DevOps | Docker, Kubernetes, Jenkins |
+Fantasy Exchange follows a **scalable microservices architecture** optimized for real-time data flow and financial safety.
+
+### Core Infrastructure
+
+- 🟩 Node.js for main backend API
+- 🐍 FastAPI / Python microservices for market data & AI
+- 🟥 Redis for caching, queues & pub/sub
+- 🟢 MongoDB for users & transaction records
+- 🟧 AWS S3 for models, logs & backups
+- 🌐 NGINX + Cloudflare for traffic & security
+- ☸️ Kubernetes for orchestration
+- 🐳 Docker for containerization
+- 💳 wallet top-up
+- 🔁 Jenkins CI/CD for automated deployment
+
 
 ---
 
