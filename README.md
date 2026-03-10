@@ -1,22 +1,11 @@
 <h1 align="center" style="font-size:60px;">
+  <div className="w-15 h-15 bg-indigo-600 rounded-lg flex items-center justify-center group-hover:bg-indigo-500 transition-colors shadow-sm shadow-indigo-200">
+      <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+      </svg>
+  </div>
   FANTASY EXCHANGE
 </h1>
-
-<h3 align="center">
-Real-Time Crypto Trading & AI-Powered Analytics Platform  
-</h3>
-<h5>
-  •  Live Prices and Charts 
-</h5>
-<h5>
-  • AI Insights using Generative AI 
-</h5>
-<h5>
-   • Paper and Real Trade (weakly Virtual Fund of 10k is Given to User To claim)
-</h5>
-<h5>
-   • Automated Trading using Agentic AI
-</h5>
 
 <p align="center">
 <strong>Status:</strong> Under development 🚧  
@@ -31,15 +20,12 @@ Real-Time Crypto Trading & AI-Powered Analytics Platform
 It enables users to analyze live market data, practice trading using an internal wallet, and receive AI-driven insights based on real-time and historical price movements.
 
 ### Key Capabilities
-- ⚡ Real-time crypto prices (1-second updates)
+- ⚡ Real-time crypto prices 
 - 📊 Interactive candlestick charts
-- 🤖 AI-powered trading insights & predictions
-- 💼 Internal wallet with ledger-based accounting
-- 🎮 Paper trading (no real crypto involved)
+- 🤖 AI-powered trading insights, Automated Trading  & Predictions
+- 💼 Internal wallet, Order with ledger-based accounting
+- 🎮 Real Trade and Paper Trade (weakly Virtual Fund of 10k is Given to User To claim)
 - 🔔 Alerts & bot notifications
-- 💳 Razorpay-based wallet top-up (for credits only)
-
-> ⚠️ **Note:** Fantasy Exchange does not execute real crypto trades. All trades are simulated using an internal ledger system.
 
 ---
 
@@ -48,14 +34,6 @@ It enables users to analyze live market data, practice trading using an internal
 - Time-series prediction models
 - AI-generated trading signals & explanations
 - Automated trading bot engine (rule + AI assisted)
-
----
-
-## 🖥️ Frontend
-- Built using **React.js** and **Tailwind CSS**
-- User dashboard, charts, wallet, and analytics UI
-
-🚧 **Frontend code will be pushed soon — currently under active development**
 
 ---
 
@@ -72,7 +50,7 @@ Fantasy Exchange follows a **scalable microservices architecture** optimized for
 - 🟢 MongoDB for users & transaction records
 - 🟧 AWS S3 for models, logs & backups
 - 🌐 NGINX + Cloudflare for traffic & security
-- 💳 Razorpay for wallet top-up
+- 💳 wallet top-up
 - 🔁 Jenkins CI/CD for automated deployment
 
 ---
@@ -100,7 +78,6 @@ Fantasy Exchange follows a **scalable microservices architecture** optimized for
 | Database | MongoDB |
 | Cache & Queue | Redis |
 | Reverse Proxy | NGINX |
-| Payments | Razorpay |
 | Cloud | AWS |
 | DevOps | Docker, Kubernetes, Jenkins |
 
