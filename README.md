@@ -1,5 +1,5 @@
 <h1 align="center" style="font-size:60px;">
-  <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/d45d5f88-094e-4d34-aca3-2921ee797a33" /> FANTASY EXCHANGE
+  <img width="40" height="40" alt="image" src="https://github.com/user-attachments/assets/d45d5f88-094e-4d34-aca3-2921ee797a33" /> FANTASY EXCHANGE
 </h1>
 
 <p align="center">
