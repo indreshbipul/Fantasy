@@ -5,7 +5,8 @@ A real-time crypto trading platform that combines market data streaming, AI-powe
 </p>
 
 <p align="center">
-<strong>Status:</strong> Under Development 🚧
+<strong>Status:</strong>Some Features are Under Development  🚧
+<strong>Link: http://fantasy.ibipul.space/</strong>
 </p>
 
 ---
@@ -46,7 +47,7 @@ It is built with a **scalable microservices architecture**, enabling efficient d
 
 ### 🎮 Trading Modes
 - **Paper Trading Mode**
-  - Weekly virtual fund allocation of **$10,000**
+  - Weekly virtual fund allocation of **Rs-10,000**
   - Safe environment for strategy testing
 
 - **Real Trading Mode**
@@ -89,7 +90,6 @@ Fantasy Exchange is built on a **distributed microservices architecture** design
 | Reverse Proxy | NGINX |
 | Security & CDN | Cloudflare |
 | Containerization | Docker |
-| Orchestration | Kubernetes |
 | CI/CD | Jenkins |
 
 ---
@@ -123,11 +123,8 @@ Key characteristics:
 
 | Component | Status |
 |-----------|--------|
-| Backend Architecture | ✅ Completed |
+| Wallet & Transaction Engine for Paper Trade| ✅ Operational |
 | AI & Trading Engine | 🚧 In Progress|
-| Wallet & Transaction Engine | ✅ Operational |
-| Frontend Interface | 🚧 In Progress |
-| Public Demo | 🚀 Coming Soon |
 
 ---
 
