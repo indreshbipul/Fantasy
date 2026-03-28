@@ -1,0 +1,92 @@
+# =========================
+# General
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files (optional — keep if you want reproducible builds)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# =========================
+# Vite
+# =========================
+dist/
+.vite/
+vite.config.ts.timestamp-*
+*.local
+
+# =========================
+# FastAPI / Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Python build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+
+# =========================
+# Testing / Coverage
+# =========================
+coverage/
+htmlcov/
+.pytest_cache/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# OS / Misc
+# =========================
+*.bak
+*.orig
+
+# =========================
+# Docker (optional)
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
